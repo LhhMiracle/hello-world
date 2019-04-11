@@ -1,0 +1,122 @@
+.menulist_content li {
+	list-style: none;
+	margin: 10px;
+}
+
+.menulist_content li a {
+	text-decoration: none;
+}
+
+.menulist_content {
+	margin: 0px;
+	padding: 5px 5px 5px 11px;
+	border: 0px;
+}
+
+.juzhong {
+	width: 1220px;
+	margin: 0 auto;
+}
+
+.cebian {
+	width: 202px;
+	height: 325px;
+	border: 2px solid green;
+	float: left;
+}
+
+.tab {
+	list-style: none;
+	margin-top: 0px;
+	display: inline;
+}
+
+.tab>li {
+	text-align: center;
+	width: 99px;
+	float: left;
+	background-color: #f0f0f0;
+	position: relative;
+}
+
+.tab>li:hover {
+	background-color: #ffffff;
+}
+
+/* 设置内部的li下的a标签的样式 */
+.tab>li>div>ul>li>a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #646464;
+	font-family: "Microsoft Yahei";
+}
+
+.tab>li>div>ul>li>a:hover {
+	color: orangered;
+}
+
+/* 设置内部li的样式 */
+.tab>li>div>ul>li {
+	list-style: none;
+}
+
+.tab>li>div>ul {
+	position: absolute;
+	display: none;
+	width: 182px;
+	right: 184px;
+	padding: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-left: 0px;
+	margin-left: 0px;
+	left: 0px;
+}
+.cebian_2{
+	position: relative;
+}
+.content_tab1,.content_tab2{
+	position: relative;
+}
+
+.tab>li:hover ul {
+	display: block;
+}
+
+#ulImg {
+	list-style: none;
+	position: relative;
+}
+
+#ulImg>li {
+	position: absolute;
+	left: 0px;
+	top: -17px;
+}
+
+#ulNumber {
+	position: absolute;
+	list-style: none;
+	right: 101px;
+	bottom: 20px;
+}
+
+#ulNumber>li {
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+	padding: 11px;
+	height: 3px;
+	line-height: 3px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.selected{
+	background-color: red;
+}
+.unselected{
+	background-color:#646464 ;
+}
